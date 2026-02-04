@@ -4,3 +4,4 @@ for(let i=0;i<n;i++)
     console.log("hello",i);
 }
 console.log("Bye");
+
