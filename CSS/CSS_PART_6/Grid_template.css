@@ -1,0 +1,29 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    display:grid;
+
+    /*For rows*/
+    grid-template-rows:50px 50px 50px 50px 50px;
+    
+    /*For columns using auto*/
+    grid-template-columns:auto auto;
+    
+        /*For columns*/
+        grid-template-columns: 200px 200px 200px;
+}
+
+.item{
+
+    /*Not define the height and widht*/
+    /* width: 100px;
+    height: 50px; */
+
+    /*When define the height and width then they take that define one*/
+    /* width: 100px;
+    height: 50px; */
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-align: center;
+}

@@ -1,0 +1,136 @@
+/*universal selector*/
+*{
+    font-family:'Courier New';
+}
+
+/*Element selector*/
+h1{
+    color: #b92b27;
+}
+/*The properties can be apply to multiple elements by adding the elements by the comma*/
+hr,a{
+    color: rgb(50,50,255);
+}
+
+/*ID Selector*/
+#login{
+    color: white;
+    background-color: #b92b27;
+}
+#signup{
+    color: #b92b27;
+    background-color: white;
+}
+
+/*Class Selector*/
+.upvote{
+    color: beige;
+    background-color: green;
+}
+
+/*Descendant selector*/
+/* p a{
+    color: purple;
+    background-color: yellow;
+} */
+
+/*Descendant selector using the Class*/
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+/*Descendant selector at mutiple level*/
+nav ul li{
+    color: #b92b27;
+}
+
+/*Adjacnet Sliding Combinator*/
+p+h3{
+    text-decoration:underline;
+}
+
+.upvote+button{
+    background-color: lightslategray;
+    color:black
+}
+
+/*Child Combinator*/
+div>input{
+    background-color: orange;
+    color: blue;
+}
+
+/*Attribute Selector*/
+input[type="text"]{
+    color: #b92b27;
+}
+
+/*Pseudo Class*/
+/*Hover*/
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+/*active*/
+p:active{
+    font-weight:bold;
+    color:green;
+}
+
+/*checked*/
+/* #yes:checked+label{
+     
+      color: #41fc03;
+      font-weight: bold;
+}
+#no:checked+label{
+     
+      color: red;
+      font-weight: bold;
+} */
+
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+}
+
+/*nth-element*/
+div:nth-of-type(even){
+   background-color: aqua;
+}
+
+/*pseudo elements*/
+/*::first-letter*/
+h1::first-letter{
+    color:black;
+}
+
+/*first-line*/
+#para_first_line::first-line{
+   color: #b92b27;
+   font-weight: bold;
+}
+
+/*::selection*/
+p::selection{
+    background-color: yellow;
+}
+
+/*cascading*/
+h3{
+    background-color: blue;
+}
+h3{
+    background-color: antiquewhite;
+}
+
+/*Important*/
+p{
+    color: black !important;
+}

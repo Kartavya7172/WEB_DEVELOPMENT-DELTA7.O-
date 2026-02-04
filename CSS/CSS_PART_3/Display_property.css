@@ -1,0 +1,38 @@
+/* <!-- Display Property lecture --> */
+/* h1{
+    display: inline;
+}
+
+span{
+    display:block;
+} */
+
+/* span{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#div_for_testing_block{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+} */
+
+/* Inline-Block lecture */
+div{
+    height: 200px;
+    width: 200px;
+    background-color: limegreen;
+    border: 2px solid black;
+    margin: 5px;
+    display:inline-block;
+
+}
+#div3{
+    display: none;
+}

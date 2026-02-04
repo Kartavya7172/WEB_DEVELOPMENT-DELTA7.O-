@@ -1,0 +1,52 @@
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+/*align-content for row*/
+
+    flex-direction: row;
+    align-content: baseline;
+    /*Align-content:flex-start*/
+    /* align-content: flex-start; */
+    /*Align-content:flex-start*/
+    /* align-content: flex-end; */
+    /*Align-content:centre*/
+    /* align-content: center; */
+    /*Algin-content for space*/
+    /* align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly; */
+
+/*align-content for column*/
+
+    /* flex-direction: column; */
+    /*Align-content:flex-start*/
+    /* align-content: flex-start; */
+    /*Align-content:flex-start*/
+    /* align-content: flex-end; */
+    /*Align-content:centre*/
+    /* align-content: center; */
+    /*Algin-content for space*/
+    /* align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly; */
+  
+}
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white
+}

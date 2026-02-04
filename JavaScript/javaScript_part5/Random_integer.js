@@ -1,0 +1,2 @@
+//Random number from 1 to 10;
+let number = Math.floor(Math.random()*10)+1;

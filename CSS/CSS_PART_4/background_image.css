@@ -1,0 +1,19 @@
+div{
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    background-color: #7aa874;
+    background-image: url("images/background.jpg");
+    
+    /*For contain*/
+    background-size: contain;
+
+    /*For cover*/
+    background-size: cover;
+
+    /*For auto*/
+    /* background-size:auto; */
+}
+h1{
+    color: chocolate;
+}

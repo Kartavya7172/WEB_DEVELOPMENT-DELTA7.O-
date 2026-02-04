@@ -1,0 +1,17 @@
+function oddORevenfactory(request){
+   if(request == "odd")
+   {
+    return function(n){
+        console.log(!(n%2 == 0));
+    }
+   }else if(request == "even"){
+    return function(n){
+        console.log((n%2 == 0));
+    }
+   }else{
+        console.log("Wrong choice");
+    }
+}
+
+let ans = oddORevenfactory("even");
+console.log(ans);

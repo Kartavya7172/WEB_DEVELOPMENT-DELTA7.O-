@@ -1,0 +1,42 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+   
+/*Flex wrap according to the row*/
+    /* flex-direction: row;
+    justify-content: flex-start; */
+
+    /*Flex-wrap:nowrap*/
+    /* flex-wrap: nowrap;  */
+
+    /*Flex-wrap:wrap*/
+    /* flex-wrap: wrap;  */
+
+    /*Flex-wrap:wrap-reverse*/
+    /* flex-wrap: wrap-reverse;  */
+
+/*Flex wrap according to the column*/
+    flex-direction: column;
+    justify-content: flex-start;
+    /*flex wrap*/
+    flex-wrap: wrap;
+    
+    /*flex wrap reverse*/
+    flex-wrap: wrap-reverse;
+
+}
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white
+}

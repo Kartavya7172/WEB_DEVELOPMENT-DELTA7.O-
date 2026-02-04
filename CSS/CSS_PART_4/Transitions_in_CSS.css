@@ -1,0 +1,24 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    
+    /*shorthand*/
+    /* transition: 1s 1s; */
+
+/*     
+    transition-duration: 1s;
+    transition-delay: 0.2s; */
+
+    margin:0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 1s;
+}
+div:hover{
+    /* background-color: red;
+    border-radius: 50%; */
+
+    margin-top: 400px;
+    background-color: cornflowerblue;
+
+}

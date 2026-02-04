@@ -1,0 +1,51 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: pink;
+    /*To behave as inline not such purpose*/
+    display:inline-grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:10px 10px;
+
+/*Grid Properties*/
+ /*Justify start,end,center*/
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+ 
+
+/*Align start,end,center*/
+    align-items: start;
+    align-items: center;
+    align-items: end;
+ 
+
+/*place start,end,center*/
+    place-items: start;
+    place-items: end;
+    place-items: center;
+}
+ /*For single element justify*/
+ /* #one{
+    justify-self: end;
+ } */
+
+/*For single element align*/
+ /* #two{
+    align-self: start;
+ } */
+
+/*For single element align*/
+ #one{
+    place-self: start;
+ }
+
+ .item{
+
+    width: 100px;
+    height: 50px; 
+    background-color: yellowgreen;
+    border: 2px solid red;
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+console.log(`The sum of the numbers is :${23} in maths`);

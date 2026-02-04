@@ -1,0 +1,21 @@
+.box{
+    height: 100px;
+    width: 150px;
+    background-color: pink;
+    animation: coloranimation 4s ease-in 0s infinite alternate;
+}
+
+@keyframes coloranimation{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: blue;
+    }
+}

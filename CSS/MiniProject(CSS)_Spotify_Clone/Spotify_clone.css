@@ -1,0 +1,477 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  scrollbar-width: thin;
+}
+
+.main{
+    display: flex;
+    height: calc(100vh - 4.6rem); /* 72px music player */
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+
+.sidebar{
+
+    width: 340px;
+    border-radius: 1rem;
+    background-color: #000;
+    margin-right: 0.5rem;
+}
+
+.main-content{
+    
+    background-color: #121212;
+    flex:1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+/* scrollbar width */
+.main-content::-webkit-scrollbar{
+    width: 6px;
+}
+
+/* track */
+.main-content::-webkit-scrollbar-track{
+    background: #000;
+}
+
+/* thumb (the draggable bar) */
+.main-content::-webkit-scrollbar-thumb{
+    background-color: #a7a7a7;
+    border-radius: 10px;
+}
+
+/* thumb hover */
+.main-content::-webkit-scrollbar-thumb:hover{
+    background-color: #cfcfcf;
+}
+
+/* remove arrow buttons */
+.main-content::-webkit-scrollbar-button{
+    display: none;
+}
+
+
+.music_player{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 72px;
+}
+
+.nav-option a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+   font-size: 1.25rem;
+}
+
+.nav-option a{
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.library a{
+    color: white;
+    text-decoration: none;
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+.lib-option img{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    font-size: 1.25rem;    
+}
+
+.icons i{
+
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+.box{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.badge{
+   background-color: white;
+   border: none;
+   border-radius: 100px;
+   padding: 0.25rem 1rem;
+   font-weight: 700;
+   margin-top: 0.5rem;
+   height: 2rem;
+   width: fit-content;
+}
+
+.sticky-nav{
+    position:sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 10;
+}
+
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items{
+   margin-right: 1rem;
+}
+
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1000px)
+{
+    .hide{
+        display: none;
+    }
+}
+
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .image{
+    width: 150px;
+    border-radius: 0.5rem;
+}
+
+.card_title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.footer{
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 2px solid white;
+    opacity: 0.4;
+}
+
+.music_player{
+    display: flex;
+    width: 100%;
+    height: 4.5rem;
+    align-items: center;
+    padding: 0.50rem;
+}
+.atpeace_img{
+    width: 3.49rem;
+    height: 3.49rem;
+    margin-top: 1rem ;
+    margin-left: 0.5;
+    margin-right: 0.8rem;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    
+}
+.heading1{
+    margin-bottom: 0.3rem;
+    margin-top: 1.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.heading2{
+    margin-top: 0.3rem;
+    font-weight: 100;
+    font-size: 12px;
+}
+.nameartist{
+    display: flex;
+    width: 22.75rem;    
+    height: 3.49rem;
+    margin-bottom: 1.7rem;
+}
+
+.heart{
+    margin-top: 2.4rem;
+    margin-left: 1.3rem;
+}
+
+.upper{
+    display: flex;
+    height: 3.53rem;
+    margin: 0 0 0.50rem;
+    justify-content: center;
+    margin-bottom: -1rem;
+}
+
+
+.player{
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.merge{
+    width: 1.09rem;
+    height: 1.09rem;
+    padding: 0.50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.merge1{
+    height: 1rem;
+    width: 1rem;
+}
+
+.backward{
+    width: 1.95rem;
+    height: 1.95rem;
+    padding: 0.5rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.backward1{
+    width: 0.9rem;
+    height: 1rem;
+}
+.pause{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.50rem;
+    margin-right: 0.50rem;
+}
+.pause1{
+    width: 100%;
+    height: 100%;
+}
+
+.forward{
+    width: 1.95rem;
+    height: 1.95rem;
+    padding: 0.5rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9rem;
+}
+
+.forward1{
+    width: 0.9rem;
+    height: 1rem;
+}
+
+
+.remix{
+    width: 1.09rem;
+    height: 1.09rem;
+    padding: 0.50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+.remix1{
+    height: 1rem;
+    width: 1rem;
+}
+
+.lower{
+    height: 1rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+
+.start_time{
+    width: 3.1rem;
+    height: 1rem;
+    
+}
+
+.end_time{
+    width: 3.1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.line1{
+ width: 70%;
+ appearance: none;
+ background-color: transparent;
+ cursor: pointer;
+
+}
+
+.line1::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.line1::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    margin-top: -6px;
+    border-radius:50%;
+}
+
+.extra_icons{
+    display: flex;
+
+    width: 20%;
+}
+.extra_icons > div:not(.volume){
+   width: 2rem;
+   height: 2rem;
+   padding: 0.25rem;
+}
+.extra_icons i{
+    height: 2rem;
+    width: 2rem;
+    padding: 0.10rem;
+    margin-top: 1rem;
+}
+
+.extra_icons img{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.10rem;
+    margin-top: 0.7rem;
+}
+
+#stack{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.vol{
+ width: 90%;
+ appearance: none;
+ background-color: transparent;
+ cursor: pointer;
+
+}
+
+.vol::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.vol::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    margin-top: -6px;
+    border-radius:50%;
+}
+
+.volume{
+    display: flex;
+}
+
+.bar{
+    margin-top: 0.9rem;
+}
+
+.vol2{
+    padding-top: 0.2rem;
+}
+

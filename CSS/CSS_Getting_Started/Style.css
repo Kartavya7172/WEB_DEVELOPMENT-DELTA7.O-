@@ -1,0 +1,20 @@
+
+h1{
+    /* color property */
+    color:blue;
+    /*Background Propertry*/
+    background-color: gray;
+}
+p{
+    /*Color property*/
+    color:red;
+    /*Background Propertry*/
+    background-color: cornsilk;
+}
+button{
+
+    /*Color property*/
+    color: gold;
+    /*Background Propertry*/
+    background-color: white;
+}

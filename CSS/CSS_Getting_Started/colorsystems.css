@@ -1,0 +1,18 @@
+h1{
+    /*For red*/
+    /* color:rgb(255,0,0); */
+    /*For blue*/
+    /* color:rgb(0,0,255); */
+    /*For Green*/
+    /* color:rgb(0,255,0); */
+
+    /*Mixing of the color*/
+    /*For yellow*/
+    color:rgb(255,255,0);
+        /*For pink*/
+    color:rgb(255,0,255);
+        /*For aqua blue*/
+    color:rgb(0,255,255);
+        /*For White*/
+    /* color:rgb(255,255,255); */
+}

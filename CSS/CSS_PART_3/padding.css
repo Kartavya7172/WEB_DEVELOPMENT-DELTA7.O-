@@ -1,0 +1,68 @@
+div{
+    
+    /*Height & Width*/
+    height: 150px;
+    width: 500px;
+    background-color: pink;
+
+    /*Border*/
+    border:5px;
+    border-color: black;
+    border-style:solid;
+
+    /*Border radius*/
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    /*Padding*/
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 50px;
+
+}
+
+h1{
+    width: 240px;
+    height: 40px;
+    
+
+    /*In Long terms without shorthand
+     border:2px;
+    border-style:outset;
+    border-color: cornflowerblue;
+     */
+    
+     /*Border shorthand*/
+    border: 2px outset orange;
+}
+
+/*Border sides*/
+button{
+    border:10px groove rgb(52, 2, 52);
+    border-left-color:orange;
+    border-left-style: groove;
+
+    border-top-color: crimson;
+    border-top-style:groove ;
+    
+    background-color: blueviolet
+}
+
+/*Border radius*/
+button{
+    border-radius: 15%;
+
+    /*Padding for all sides*/
+    /* padding: 20px; */
+
+    /*Padding for top&bottom | left&right*/
+    /* padding:10px 15px; */
+
+    /*Padding for top|left&right|bottom*/
+    /* padding:5px 7px 5px; */
+
+    /*Padding for top|right|bottom|left*/
+    Padding:5px 10px 4px 5px;
+
+}

@@ -1,0 +1,39 @@
+div{
+    
+    /*Height & Width*/
+    height: 150px;
+    width: 500px;
+    background-color: pink;
+
+    /*Border*/
+    border:5px;
+    border-color: black;
+    border-style:solid;
+}
+
+h1{
+    width: 240px;
+    height: 40px;
+    
+
+    /*In Long terms without shorthand
+     border:2px;
+    border-style:outset;
+    border-color: cornflowerblue;
+     */
+    
+     /*Border shorthand*/
+    border: 2px outset orange;
+}
+
+/*Border sides*/
+button{
+    border:10px groove rgb(52, 2, 52);
+    border-left-color:orange;
+    border-left-style: groove;
+
+    border-top-color: crimson;
+    border-top-style:groove ;
+
+}
+

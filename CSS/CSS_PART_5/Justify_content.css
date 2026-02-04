@@ -1,0 +1,35 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /*Justify Content*/
+    /* flex-direction:column-reverse;
+    justify-content: center; */
+
+    /*Space Between*/
+    flex-direction: row;
+    justify-content: space-between;
+
+    /*Space around*/
+    flex-direction: row;
+    justify-content: space-around;
+    
+    /*Space evenly*/
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white
+}

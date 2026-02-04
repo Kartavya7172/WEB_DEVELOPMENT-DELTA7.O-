@@ -1,0 +1,20 @@
+.box{
+    height: 100px;
+    width: 70px;
+    background-color: pink;
+    animation: Shorthand 2s ease-in 0s infinite alternate;
+}
+
+@keyframes Shorthand{
+    from{
+        width: 70px;
+        background-color: rgba(255, 191, 0, 0.929);
+        font-size: 4px;
+    }
+    to{
+        width:600px;
+        background-color: orange;
+        font-size: 60px;
+        border-radius: 15px;
+    }
+}
