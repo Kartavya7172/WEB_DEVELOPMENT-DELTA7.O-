@@ -1,0 +1,32 @@
+{
+
+  "name": "backend1_nodejs",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "license": "ISC",
+
+  "author": "Kartavya",
+
+  "main": "import_maths.js",
+
+  "type": "module",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "dependencies": {
+
+    "figlet": "^1.10.0",
+
+    "random-words": "^2.0.1"
+
+  }
+
+}
+
